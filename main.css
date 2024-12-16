@@ -530,6 +530,7 @@ table td span{
 @media screen and (max-width:670px){
     .container{
         display: grid;
+        width: 120%;
         grid-template-columns:  auto ;
         overflow-x: hidden;
     }
