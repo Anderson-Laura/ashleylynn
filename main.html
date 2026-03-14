@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
-    <title>Bank Of America</title>
+    <title>UniCredit Bank</title>
 </head>
 <body>
     <div class="container">
@@ -14,7 +14,7 @@
         <div class="sidenav" id="navlinks">
             <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
             <div class="header">
-                <img src="Bank_of_America_logo_V.png" alt="image" width="50%">
+                <img src="union-credit.png" alt="image" width="50%">
             </div>
             <div class="lists">
                     <a href="main.html" class="menuList active">Dashboard</a>
@@ -26,14 +26,18 @@
         </div>
          <!------Middle content------->
         <div class="content">
+            <div class="image-top">
+                <img src="union-credit.png" alt="" width="40%" >
+            </div>
+            
             <div class="first-content">    
-                <h1><span>WELCOME, </span>Felix Medina</h1>
+                <h1><span>WELCOME, </span>Giusy Meloni</h1>
                 <i class="fa-solid fa-bars" onclick="showMenu()"></i>
             </div>
             <div class="second-content">
                 <div class="notes">
                     <h3><b>Available Balance:</b></h3>
-                    <h1><img src="bank-icon-5983.png" alt="bank icon" width="40px"> $82,600.00</h1>
+                    <h1><img src="bank-icon-5983.png" alt="bank icon" width="40px"> €362,827,130.17</h1>
                 </div>
                 
                 <div class="button">
@@ -43,7 +47,7 @@
             <div class="popup" id="popup">
                 <img src="error.png" alt="thick-mark" class="img">
                 <h2>Declined</h2>
-                <h6>DEAR FELIX MEDINA, YOUR BANK ACCOUNT HAS BEEN FROZEN DUE TO DELAY AUTHENTICATION AND VERIFICATION.</h6>
+                <h6>DEAR GIUSY MELONI, YOU WILL HAVE TO DEPOSIT TO THIS ACCOUNT BEFORE YOU CAN WITHDRAW.</h6>
                 <!-- <h6>PROCESSING TRANSACTION.....</h6> -->
                 <button type="button" onclick="closePopup()">OK</button>
             </div>
@@ -52,103 +56,67 @@
                 <div class="table">
                     <table>
                         <tr>
-                            <th>Bank Name</th>
-                            <th>Receiver Name</th>
-                            <th>Amount($)</th>
-                            <th>Status</th>
-                            <th>Date</th>
-                            <th>Time</th>
-                        </tr>
-                        <tr>
-                            <td>Banco Popular</td>
-                            <td>Felix Medina</td>
-                            <td class="green">$82,000.00</td>
-                            <td>Reversed</td>
-                            <td>11/06/2025</td>
-                            <td>01:15pm</td>
-                        </tr>
-                        <tr>
-                            <td>Banco Popular</td>
-                            <td>Felix Medina</td>
-                            <td class="red">$82,000.00</td>
-                            <td>Failed</td>
-                            <td>03/06/2025</td>
-                            <td>03:05pm</td>
-                        </tr>
-                        <tr>
-                            <td>Banco Popular</td>
-                            <td>Felix Medina</td>
-                            <td class="red">$82,000.00</td>
-                            <td>Processing</td>
-                            <td>02/06/2025</td>
-                            <td>05:35pm</td>
-                        </tr>
-                    </table>
-                    </table>
-                    <br>
-                    <table>
-                        <tr>
                             <th>Account Name</th>
-                            <th>Description</th>
+                            <th>Bank Name</th>
                             <th>Date</th>
                             <th>Time</th>
-                            <th>Amount($)</th>
+                            <th>Amount(€)</th>
                         </tr>
                         <tr>
-                            <td>FELIX MEDINA</td>
-                            <td>Deposit</td>
-                            <td>12/06/2025</td>
+                            <td>Guilia Andrea</td>
+                            <td>Banco BPM</td>
+                            <td>12/03/2026</td>
                             <td>03:05pm</td>
-                            <td class="green">$600.00</td>
+                            <td class="green">€10,025,000.07</td>
                         </tr>
                         <tr>
-                            <td>FELIX MEDINA</td>
-                            <td>Deposit</td>
-                            <td>28/05/2025</td>
+                            <td>Williams Sofia</td>
+                            <td>Mediobanca</td>
+                            <td>28/02/2026</td>
                             <td>11:15am</td>
-                            <td class="green">$2,000.00</td>
+                            <td class="green">€45,520,030.10</td>
                         </tr>
                         <tr>
-                            <td>AGENT RACHEL D.HILLIARD</td>
-                            <td>Credited</td>
-                            <td>16/12/2024</td>
+                            <td>Micheal Hillard</td>
+                            <td>Banco</td>
+                            <td>11/02/2026</td>
                             <td>05:20pm</td>
-                            <td class="green">$10,000.00</td>
+                            <td class="green">€60,225,100.00</td>
                         </tr>
                         <tr>
-                            <td>AGENT RACHEL D.HILLIARD</td>
-                            <td>Credited</td>
-                            <td>16/12/2024</td>
+                            <td>Jacopo Roger</td>
+                            <td>UniCredit</td>
+                            <td>30/01/2026</td>
                             <td>07:55pm</td>
-                            <td class="green">$8,000.00</td>
+                            <td class="green">€71,755,241.00</td>
                         </tr>
                         <tr>
-                            <td>AGENT RACHEL D.HILLIARD</td>
-                            <td>Credited</td>
-                            <td>16/12/2024</td>
+                            <td>Fabio Paolo</td>
+                            <td>Poste Italiane</td>
+                            <td>12/01/2026</td>
                             <td>09:15pm</td>
-                            <td class="green">$5,000.00</td>
+                            <td class="green">€25,240,100.00</td>
                         </tr>
                         <tr>
-                            <td>AGENT RACHEL D.HILLIARD</td>
-                            <td>Credited</td>
-                            <td>16/12/2024</td>
+                            <td>Maria Lorenzo</td>
+                            <td>Intesa Sanpaolo</td>
+                            <td>26/12/2025</td>
                             <td>09:55pm</td>
-                            <td class="green">$30,000.00</td>
+                            <td class="green">€67,350,500.00</td>
                         </tr>
                         <tr>
-                            <td>AGENT RACHEL D.HILLIARD</td>
-                            <td>Credited</td>
-                            <td>16/12/2024</td>
+                            <td>Leonardo Rocco</td>
+                            <td>UniCredit</td>
+                            <td>05/12/2025</td>
                             <td>10:35pm</td>
-                            <td class="green">$7,000.00</td>
+                            <td class="green">€37,250,159.00</td>
                         </tr>
                         <tr>
-                            <td>AGENT RACHEL D.HILLIARD</td>
-                            <td>Credited</td>
-                            <td>16/12/2024</td>
+                            <td>Luca Lorenzo</td>
+                            <td>Mediobanca</td>
+                            <td>16/11/2025</td>
                             <td>11:45pm</td>
-                            <td class="green">$20,000.00</td>
+                            <td class="green">€45,461,000.00</td>
                         </tr>
                         
                     </table>
@@ -179,43 +147,43 @@
                     <div class="list-head">
                         <div class="list">
                             <div class="head">
-                                <h4>FELIX MEDINA</h4>
-                                <p>This is a new message for Felix Medina</p>
+                                <h4>GIUSY MELONI</h4>
+                                <p>This is a new message for Giusy Meloni</p>
                             </div>
                             <img src="1.PNG" alt="" width="20px" height="20px">
                         </div>
                         <div class="list">
                             <div class="head">
-                                <h4>FELIX MEDINA</h4>
-                                <p>This is a new message for Felix Medina</p>
+                                <h4>GIUSY MELONI</h4>
+                                <p>This is a new message for Giusy Meloni</p>
                             </div>
                             <img src="1.PNG" alt="" width="20px" height="20px">
                         </div>
                         <div class="list">
                             <div class="head">
-                                <h4>FELIX MEDINA</h4>
-                                <p>This is a new message for Felix Medina</p>
+                                <h4>GIUSY MELONI</h4>
+                                <p>This is a new message for Giusy Meloni</p>
                             </div>
                             <img src="1.PNG" alt="" width="20px" height="20px">
                         </div>
                         <div class="list">
                             <div class="head">
-                                <h4>FELIX MEDINA</h4>
-                                <p>This is a new message for Felix Medina</p>
+                                <h4>GIUSY MELONI</h4>
+                                <p>This is a new message for Giusy Meloni</p>
                             </div>
                             <img src="1.PNG" alt="" width="20px" height="20px">
                         </div>
                         <div class="list">
                             <div class="head">
-                                <h4>FELIX MEDINA</h4>
-                                <p>This is a new message for Felix Medina</p>
+                                <h4>GIUSY MELONI</h4>
+                                <p>This is a new message for Giusy Meloni</p>
                             </div>
                             <img src="1.PNG" alt="" width="20px" height="20px">
                         </div>
                         <div class="list">
                             <div class="head">
-                                <h4>FELIX MEDINA</h4>
-                                <p>This is a new message for Felix Medina</p>
+                                <h4>GIUSY MELONI</h4>
+                                <p>This is a new message for Giusy Meloni</p>
                             </div>
                             <img src="1.PNG" alt="" width="20px" height="20px">
                         </div>

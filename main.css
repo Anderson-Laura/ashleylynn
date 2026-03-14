@@ -54,9 +54,12 @@
     border-right: 6px solid rgb(255, 255, 255);
 }
 /* ----------Main contect-------- */
+.image-top{
+    display: none;
+}
 .content{
     /* background-color: rgb(255, 255, 255); */
-    background: rgb(190, 25, 25);
+    background: rgb(177, 59, 59);
 }
 .first-content{
     margin: 25px 20px ;
@@ -528,6 +531,11 @@ table td span{
     } */
 }
 @media screen and (max-width:670px){
+    .image-top{
+    display: block;
+    width: 90%;
+    
+}
     .container{
         display: grid;
         width: 120%;
