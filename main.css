@@ -667,13 +667,12 @@ table td span{
     }
 }
 @media screen and (max-width:405px){
-    /* .container{
-        width: 150%;
-    } */
+    .container{
+        max-width: 150%;
+    }
     .sidenav {
         position: absolute;
-        /* background: rgb(29, 20, 197); */
-        background: red;
+        background: rgb(29, 20, 197);
         display: block;
         min-height: 100vh;
         width: 200px;
