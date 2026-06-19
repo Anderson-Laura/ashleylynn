@@ -11,13 +11,13 @@
     grid-template-columns: 20% 55% auto;
     gap: 1px;
     position: relative;
-    background: rgb(190, 25, 25);
+    background: rgb(29, 20, 197);
     /* background-color: rgba(204, 202, 202, 0.842); */
 }
 /* ----------side-nav1-------- */
 .sidenav{
     /* background-color: rgb(254, 255, 255); */
-    background: rgb(190, 25, 25);
+    background: rgb(29, 20, 197);
     /* border-radius: 5px; */
     box-shadow: 2px 1px 10px rgba(54, 53, 53, 0.288);
 }
@@ -59,7 +59,7 @@
 }
 .content{
     /* background-color: rgb(255, 255, 255); */
-    background: rgb(177, 59, 59);
+    background: rgb(29, 20, 197);
 }
 .first-content{
     margin: 25px 20px ;
@@ -219,7 +219,7 @@ table td span{
 /* ----------side-nav2-------- */
 .sidenav-2{
     /* background-color: rgb(225, 238, 238); */
-    background: rgb(190, 25, 25);
+    background: rgb(29, 20, 197);
 }
 .images-settings{
     text-align: right;
@@ -547,7 +547,7 @@ table td span{
     }
     .sidenav {
         position: absolute;
-        background: rgb(190, 25, 25);
+        background: rgb(29, 20, 197);
         display: block;
         min-height: 60vh;
         width: 200px;
@@ -604,7 +604,7 @@ table td span{
 @media screen and (max-width:530px){ 
     .sidenav {
         position: absolute;
-        background: rgb(190, 25, 25);
+        background: rgb(29, 20, 197);
         display: block;
         min-height: 100vh;
         width: 200px;
@@ -672,7 +672,7 @@ table td span{
     }
     .sidenav {
         position: absolute;
-        background: rgb(190, 25, 25);
+        background: rgb(29, 20, 197);
         display: block;
         min-height: 100vh;
         width: 200px;
